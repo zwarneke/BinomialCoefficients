@@ -51,7 +51,7 @@ namespace PascalsSquareGenerator
                 }
             }
 
-            var lastDigitString = lastDigitOnly ? "_LastDigit" : "";
+            var lastDigitString = lastDigitOnly ? "_LeftmostDigit" : "";
             WriteSquareToFile(square, $"../../Mod{modulus}{lastDigitString}.txt");
         }
 
